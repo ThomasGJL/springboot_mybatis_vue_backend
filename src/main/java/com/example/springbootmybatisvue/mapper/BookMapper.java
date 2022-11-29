@@ -10,5 +10,5 @@ public interface BookMapper {
     //@Select("select * from book")
     List<Book> getBooks();
 
-
+    Book getBookById(String id);
 }

@@ -18,4 +18,10 @@ public class BookService {
         return bookMapper.getBooks();
 
     }
+
+    public Book getBookById(String id){
+
+        return bookMapper.getBookById(id);
+
+    }
 }
